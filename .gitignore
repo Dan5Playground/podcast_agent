@@ -1,0 +1,26 @@
+# Secrets
+.env
+*.env
+api_key.env
+token.json
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Prompts 
+config/*.txt
+config/*.json
+config/*.env
+
+# Outputs
+output/
+*.mp3
+journal_archive/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
